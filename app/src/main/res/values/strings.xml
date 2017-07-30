@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Fitness Challenge</string>
+
+    <string name="pushups">
+        Try to do as many push-ups as you can
+        in a minute. Enter the number of push-ups below.
+    </string>
+
+    <string name="pullups">
+        Try to do as many pull-ups as you can
+        in a minute. Enter the number of pull-ups below.
+    </string>
+
+    <string name="squats">
+        Try to do as many squats as you can
+        in a minute. Enter the number of squats below.
+    </string>
+
+    <string name="running">
+        Try to run or jog continuously for 1km and
+        note down the time taken to run 1km.
+    </string>
+
+    <string name="planks">
+        Try to do a plank for as long as you can.
+        Note down the time.
+    </string>
+
+    <string name="crunches">
+        Try to do as many crunches as you can
+        in a minute. Enter the number of crunches below.
+    </string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+
+    </string-array>
+
+
+    <string name="interstitial_full_screen">ca-app-pub-9549050735651802/9232744386</string>
+    <string name="banner_home_footer">ca-app-pub-9549050735651802/5858665061</string>
+    <string name="btn_fullscreen_ad">Show Fullscreen Ad</string>
+
+</resources>

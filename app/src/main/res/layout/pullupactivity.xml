@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pull-Ups"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pullups"
+            android:padding="20dp"
+
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="17sp"
+            android:layout_marginBottom="20dp"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="85dp"
+            android:src="@drawable/youtubelogo"
+            android:paddingLeft="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/play"
+            android:text="Play Pull-Up video tutorial"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:background="#BBDEFB"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/Timer"
+                android:src="@drawable/timer"
+                android:layout_marginLeft="134dp"
+                />
+            <TextView
+                android:layout_toRightOf="@id/Timer"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@id/timer"
+                android:paddingLeft="12dp"
+                android:text="60"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/start"
+            android:layout_gravity="center_horizontal"
+            android:text="START"
+            android:layout_marginBottom="20dp"
+            android:textColor="#ffffff"
+            android:background="#01579B"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Enter the number of Pull-Ups"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp"
+            android:padding="20dp"
+            android:id="@+id/crunchestext"
+            android:inputType="number"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/submitchallenges"
+            android:layout_marginBottom="30dp"
+            android:background="@color/green" />
+
+    </LinearLayout>
+</ScrollView>

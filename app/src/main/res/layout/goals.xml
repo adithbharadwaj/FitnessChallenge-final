@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/CustomText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GOALS"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:elevation="15dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/border_shadow"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Push-Ups"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        android:background="#FFCDD2"
+          />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No goals to display yet"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/PushUpGoals"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pull-Ups"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        android:layout_marginTop="15dp"
+        android:background="#E1BEE7"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No goals to display yet"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/PullUpGoals"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+          />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Planking"
+        android:background="#FFCCBC"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No goals to display yet"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/PlankGoals"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"  />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crunches"
+        android:background="#CCFF90"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No goals to display yet"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/CrunchesGoals"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Running"
+        android:layout_marginTop="15dp"
+        android:background="#90CAF9"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No goals to display yet"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/RunningGoals"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Squats"
+        android:background="#FFF176"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No goals to display yet"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/SquatsGoals"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>
+    </ScrollView>
